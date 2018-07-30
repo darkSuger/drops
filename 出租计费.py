@@ -9,7 +9,7 @@ while True:
     if a <= 0:
         print "付费8块"
         continue
-    b=a-10
+    b = a-10
     if b <= 0:
         c = 8+a*1.2
         print "付费", c, "元"
